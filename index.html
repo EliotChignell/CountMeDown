@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html>
+  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CountMeDown</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class='mainWrapper'>
+      <div class='wrapperProp'>
+        <div class='mainCountdown'>
+          <p class='currentTime'></p>
+          <p class='mainCountdownText'></p>
+        </div>
+      </div>
+      <div class='inputs'>
+        <h2>Settings</h2>
+        <b>Countdown to...</b>
+        <input type='number' id='getYear' placeholder='Year...'>
+        <input type='number' id='getMonth' placeholder='Month...'>
+        <input type='number' id='getDay' placeholder='Day...'>
+        <input type='number' id='getHour' placeholder='Hour(Default 0)'>
+        <input type='number' id='getMinute' placeholder='Minute(Default 0)'>
+        <input type='number' id='getSecond' placeholder='Second(Default 0)'>
+        <button onclick='setDefault()'>Set to default</button><br><br><b>Other Settings</b><br>
+        <input type='radio' id='if24h' name='time' checked>24-Hour Time<br>
+        <input type='radio' id='if12h' name='time'>12-Hour Time<br>
+        <br><b>Background Colour</b>
+        <input type='text' id='bgColour' placeholder='rgb(0,0,0) or #ffffff'>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+  }
+  
+  * {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .inputs {
+    
+    background-color: white;
+    display: block;
+    width: 150px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    text-align: center;
+    
+    border-top: 4px solid black;
+    border-right: 10px solid black;
+  
+  }
+  
+  .wrapperProp {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .mainCountdownText {
+    background-color: white;
+    text-align: center;
+    display: block;
+    width: 200px;
+    font-size: 30px;
+    
+    padding: 10px ;
+    border-top: 4px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 4px solid black;
+  }
